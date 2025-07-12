@@ -110,3 +110,14 @@ pwd
 ls --color=auto -la
 git status
 git add .
+git push origin main --force
+pip3 install openpyxl xlsxwriter
+nano create_excel_demo.py
+python3 create_excel_demo.py
+ls --color=auto -la reports/
+git add reports/Nigerian_Ecommerce_Dashboard.xlsx
+python3 create_excel_demo.py
+ls --color=auto -la reports/
+nano quick_excel.py
+python3 quick_excel.py
+ls --color=auto -la reports/
