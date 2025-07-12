@@ -1,0 +1,86 @@
+builtin unset VSCODE_INJECTION
+[ -z "$VSCODE_SHELL_INTEGRATION" ]
+[ -n "${VSCODE_ENV_REPLACE:-}" ]
+[ -n "${VSCODE_ENV_PREPEND:-}" ]
+[ -n "${VSCODE_ENV_APPEND:-}" ]
+__vsc_regex_environment="^CYGWIN*|MINGW*|MSYS*"
+[[ "$(uname -s)" =~ $__vsc_regex_environment ]]
+__vsc_is_windows=0
+__vsc_regex_histcontrol=".*(erasedups|ignoreboth|ignoredups).*"
+[[ "$HISTCONTROL" =~ $__vsc_regex_histcontrol ]]
+__vsc_history_verify=1
+builtin unset __vsc_regex_environment
+builtin unset __vsc_regex_histcontrol
+__vsc_initialized=0
+__vsc_original_PS1="$PS1"
+__vsc_original_PS2="$PS2"
+__vsc_custom_PS1=""
+__vsc_custom_PS2=""
+__vsc_in_command_execution="1"
+__vsc_current_command=""
+__vsc_nonce="$VSCODE_NONCE"
+unset VSCODE_NONCE
+__vsc_stable="$VSCODE_STABLE"
+unset VSCODE_STABLE
+[ "$__vsc_stable" = "0" ]
+[ -n "$STARSHIP_SESSION_KEY" ]
+[ -n "$POSH_SESSION_ID" ]
+builtin printf '\e]633;P;HasRichCommandDetection=True\a'
+[[ -n "${bash_preexec_imported:-}" ]]
+__vsc_dbg_trap="$(__vsc_get_trap DEBUG)"
+[[ -z "$__vsc_dbg_trap" ]]
+[[ "$__vsc_dbg_trap" != '__vsc_preexec "$_"' && "$__vsc_dbg_trap" != '__vsc_preexec_all "$_"' ]]
+trap '__vsc_preexec_all "$_"' DEBUG
+__vsc_original_prompt_command=${PROMPT_COMMAND:-}
+ls --color=auto -la
+python --version
+python3 --version
+alias python=python3
+python3 setup_project.py
+pwd
+nano setup_project.py
+python3 setup_project.py
+rm setup_project.py
+nano setup_project.py
+python3 setup_project.py
+pip3 install -r requirements.txt
+pwd
+ls --color=auto -la
+cat requirements.txt
+python3 -m pip install pandas numpy matplotlib seaborn plotly kaggle python-dotenv jupyter
+sudo apt update
+sudo apt install python3-pip
+which python3
+pip3 --version
+sudo apt update
+sudo apt install python3-pip -y
+which pip3
+pip3 --version
+curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+python3 get-pip.py --user
+export PATH="$HOME/.local/bin:$PATH"
+sudo apt install python3-pandas python3-numpy python3-matplotlib python3-seaborn -y
+sudo apt install python3-pandas
+sudo apt install python3-pandas python3-numpy python3-matplotlib python3-seaborn python3-requests -y
+nano simple_test.py
+python3 simple_test.py
+nano src/extract_data.py
+python3 src/extract_data.py
+nano src/extract_data_fixed.py
+python3 src/extract_data_fixed.py
+python3 src/extract_data_fixed.py
+nano src/clean_data.py
+python3 src/clean_data.py
+nano src/clean_data.py
+python3 src/clean_data.py
+rm src/clean_data.py
+nano src/clean_data.py
+python3 src/clean_data.py
+nano src/analyze_data.py
+python3 src/analyze_data.py
+nano main.py
+python3 main.py
+git init
+git config --global user.email "your_email@example.com"
+ls --color=auto -la
+git add .

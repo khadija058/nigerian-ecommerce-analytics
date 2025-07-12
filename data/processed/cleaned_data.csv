@@ -1,0 +1,7 @@
+order_id,customer_id,customer_name,product_name,category,quantity,unit_price,order_date,state,city,total_sales,year,month,day_of_week,is_weekend,price_category
+ORD001,CUST001,Ahmed Lagos,Samsung Phone,Electronics,1,150000,2024-01-15,Lagos,Lagos,150000,2024,1,0,False,Medium
+ORD002,CUST002,Fatima Abuja,Hp Laptop,Computers,1,450000,2024-01-16,Abuja,Abuja,450000,2024,1,1,False,High
+ORD003,CUST001,Ahmed Lagos,Phone Charger,Accessories,2,5000,2024-01-17,Lagos,Lagos,10000,2024,1,2,False,Low
+ORD004,CUST003,Kemi Ibadan,Apple Ipad,Tablets,1,320000,2024-01-18,Oyo,Ibadan,320000,2024,1,3,False,High
+ORD005,CUST002,Fatima Abuja,Dell Monitor,Computers,1,180000,2024-01-19,Abuja,Abuja,180000,2024,1,4,False,Medium
+ORD006,CUST004,Chidi Enugu,Iphone 13,Electronics,1,580000,2024-01-20,Enugu,Enugu,580000,2024,1,5,True,Premium
