@@ -25,13 +25,16 @@ Technologies Mastered :
 2. Key Business Insights Generated
 
      a. Product Performance Analysis
+   
 | Product | Revenue | Market Share |
 |---------|---------|--------------|
 | iPhone 13 | ₦580,000 | 34.3% |
 | HP Laptop | ₦450,000 | 26.6% |
 | Apple iPad | ₦320,000 | 18.9% |
 
-    b. Geographic Market Analysis
+
+    b. Geographic Market Analysis 
+    
 | Region | Revenue | Share |
 |--------|---------|-------|
 | Abuja | ₦630,000 | 37.3% |
