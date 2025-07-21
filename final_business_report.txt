@@ -1,0 +1,28 @@
+
+NIGERIAN E-COMMERCE BUSINESS REPORT
+==================================================
+
+EXECUTIVE SUMMARY:
+- Total Revenue: ₦1,783,045,294.76
+- Total Orders: 2,406
+- Average Order Value: ₦741,082.83
+- Total Items Sold: 222,719
+
+TOP 5 REGIONS:
+1. Lagos: ₦1,579,834,136 (88.6%)
+2. Ogun: ₦65,355,074 (3.7%)
+3. Oyo: ₦29,334,529 (1.6%)
+4. Ekiti: ₦7,423,500 (0.4%)
+
+TOP 5 PRODUCTS:
+1. Milo Sachet 20g: 30,263 units
+2. Knorr Chicken 17x50x8g : 17,836 units
+3. 3CROWNS EVAPORATED -TIN 24 X 160g: 11,649 units
+4. Milo 20g: 11,619 units
+5. Golden Penny Spaghetti: 9,584 units
+
+RECOMMENDATIONS:
+1. Focus on Lagos market (dominant region)
+2. Expand top-selling products inventory
+3. Investigate growth in other regions
+4. Leverage high AOV for premium strategy
