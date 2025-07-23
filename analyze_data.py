@@ -6,7 +6,7 @@ print("Loading Nigerian E-Commerce Dataset...")
 try:
     # Load the exact filename from your upload
     df = pd.read_excel('Nigerian E-Commerce Dataset.xlsx')
-    print("✅ Successfully loaded the dataset!")
+    print(" Successfully loaded the dataset!")
     
     print("\n=== DATASET OVERVIEW ===")
     print(f"Shape: {df.shape} (rows, columns)")
