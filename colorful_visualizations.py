@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import os
 
-print("🎨 Creating Colorful Custom Charts...")
+print(" Creating Colorful Custom Charts...")
 
 # Load data
 df = pd.read_excel('data/Nigerian E-Commerce Dataset.xlsx')
@@ -71,10 +71,10 @@ axes[1,1].set_facecolor('#f8f9fa')
 
 plt.tight_layout()
 plt.savefig('visualizations/colorful_dashboard.png', dpi=300, bbox_inches='tight', facecolor='white')
-print("✅ Colorful dashboard saved!")
+print("Colorful dashboard saved!")
 
 # Create individual themed charts
-print("🎨 Creating themed individual charts...")
+print("Creating themed individual charts...")
 
 # Business Professional Theme
 plt.figure(figsize=(12, 8))
@@ -98,7 +98,7 @@ plt.grid(True, alpha=0.3)
 plt.tight_layout()
 plt.savefig('visualizations/vibrant_theme.png', dpi=300, bbox_inches='tight')
 
-print("✅ All custom colored charts created!")
+print("All custom colored charts created!")
 print("\n🎨 COLOR SCHEMES USED:")
 print("   Custom: #FF6B6B, #4ECDC4, #45B7D1, #96CEB4, #FECA57")
 print("   Business: #2c3e50, #3498db, #e74c3c, #f39c12, #27ae60")
