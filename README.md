@@ -1,9 +1,9 @@
 Nigerian E-Commerce ETL & Analytics Project
 
-##  Project Overview
+Project Overview
 This project demonstrates a complete ETL (Extract, Transform, Load) pipeline for Nigerian e-commerce sales data analysis.
 
-##  Project Structure
+Project Structure
 ##  Technologies Used
 - **Python 3.x**
 - **Pandas** - Data manipulation
