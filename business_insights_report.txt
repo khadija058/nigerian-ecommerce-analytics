@@ -1,25 +1,25 @@
 
 === NIGERIAN E-COMMERCE BUSINESS INSIGHTS REPORT ===
 
-📊 EXECUTIVE SUMMARY:
+EXECUTIVE SUMMARY:
 - Total Revenue: ₦1,783,045,294.76
 - Total Orders: 2,406
 - Total Items Sold: 222,719
 - Average Order Value: ₦453,932.10
 - Date Range: 2021-02-01 to 2021-05-31
 
-🏆 TOP PERFORMING REGIONS:
+TOP PERFORMING REGIONS:
 1. Lagos: ₦1,579,834,135.76
 2. Ogun: ₦65,355,074.50
 3. Oyo: ₦29,334,529.00
 4. Ekiti: ₦7,423,500.00
 
-🛍️ PRODUCT INSIGHTS:
+PRODUCT INSIGHTS:
 - Most Popular Item: Milo Sachet 20g
 - Highest Revenue Item: Milo Sachet 20g
 - Average Items per Order: 92.57
 
-📈 RECOMMENDATIONS:
+RECOMMENDATIONS:
 1. Focus marketing efforts on Lagos (80%+ of revenue)
 2. Investigate opportunities in underperforming regions
 3. Analyze seasonal trends for inventory planning
