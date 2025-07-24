@@ -1,8 +1,10 @@
+
 Nigerian E-Commerce ETL & Analytics Project
 
 Project Overview
 This project demonstrates a complete ETL (Extract, Transform, Load) pipeline for Nigerian e-commerce sales data analysis.
-
+Data import:
+Source: https://www.kaggle.com/datasets/babajidedairo/nigerian-ecommerce-sales-dataset
 Project Structure
 ##  Technologies Used
 - **Python 3.x**
